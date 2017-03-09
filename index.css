@@ -1,30 +1,62 @@
-body{background-image:url("c4.jpg"); 
-
-
-background-attachment: fixed;
-background-position: center;
-} 
-
-.titulo{text-align: center;
-
-border-style: double;
-border-color: blue;
-border-width: 5px;
-
+html {
+    
+background-image: url("met2tek.jpg");
+    background-position: center;
+    background-size: auto;
+    background-attachment: fixed;
+    box-shadow: 0 0 9;
+    
 }
 
-.persona{border: 3px solid black;
-    background-color: lightblue;
+body{
+background-color: black;
+   
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 00 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+} 
+
+.titulo1{text-align: center;
+    color: red;
+}
+
+.titulo2{ text-align: center;
+    color: red;
+    margin-top: 200;
+    
+}
+
+ .menu{border: 3px solid rgb(255,255,255);
+     text-align: center;
+background-color: rgb(83,83,83);
+     margin: 0  auto;
+     
+     max-width: 300;
+     padding: 2em 2em 2em
+}
+.lista{
+    
+    color: yellow
+}
+
+.persona{border: 3px solid rgb(255,255,255);
+    
+    background-color: rgb(83,83,83);
     padding-top: 50px;
     padding-right: 80px;
     padding-bottom: 50px;
-    padding-left: 80px;}
+    padding-left: 80px;
+color: white}
 
-    .menu{border: 3px solid black;
-    	text-align: center;
-    background-color: lightblue;
-
-    padding-top: 50px;
-    padding-right: 80px;
-    padding-bottom: 50px;
-    padding-left: 80px;}
+   
+.pie{
+    margin-top: 200;
+   text-align: center;
+    color: yellow;
+    
+}

@@ -23,29 +23,52 @@ background-color: rgba(255,255,255,0.6);
 } 
 
 .titulo1{text-align: center;
-    color: red;
+    color: white;
+    
+    
+    
 }
 
 .titulo2{ text-align: center;
-    color: red;
-    margin-top: 200;
+    color: white;
+    
     
 }
 
- .menu{border: 3px solid rgb(255,255,255);
-     text-align: center;
-background-color: rgb(83,83,83);
-     margin: 0 auto;
-     max-width: 300;
-     padding:2em 2em 2em
-}
-.lista{
+ #menu{
+     
+     padding: 0;
+    margin-left: 250;
+     margin-right:auto;
+     margin-bottom: auto;
+     margin-top: auto;
+    }
+#menu li{
     
-    color: yellow
+  display: inline;
+    text-align: center;
+    
 }
+
+#menu li a{
+    
+    font-family: Arial;
+font-size:20px;
+text-decoration: none;
+float:left;
+padding: 10px;
+background-color: rgb(83,83,83);
+color: #fff;
+}
+
+#menu li a:hover{
+    background-color: black;
+    
+}
+
 
 .persona{border: 3px solid rgb(255,255,255);
-    
+    margin-top: 200;
     background-color: rgb(83,83,83);
     padding-top: 50px;
     padding-right: 80px;
@@ -58,6 +81,6 @@ color: white}
 .pie{
     margin-top: 200;
    text-align: center;
-    color: yellow;
+    color: black;
     
 }

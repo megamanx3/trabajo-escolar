@@ -21,3 +21,60 @@ background-color: rgba(255,255,255,0.6);
     max-width: 1100px;
     padding: 2em 2em 4em;
 } 
+
+
+.cabecera{
+    text-align: center;
+    color: #fff;
+    
+    
+}
+
+#menu{
+    
+    padding: 0;
+    
+}
+
+#menu li{
+    
+    
+    display: inline;
+}
+
+#menu li a{
+    
+    border: 1px solid #fff;
+    background-color: rgb(83,83,83);
+    color: #fff;
+    font-family: Arial;
+    font-size: 20px;
+    float: left;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+#menu li a:hover{
+    
+    background-color: black;
+}
+
+
+.texto{
+    border: 3px solid #fff;
+    background-color: rgb(83,83,83);
+    color: #fff;
+    padding: 40;
+    margin-top: 200;
+    
+    
+}
+
+
+
+
+.pie{
+    text-align: center;
+    color: #fff;
+}

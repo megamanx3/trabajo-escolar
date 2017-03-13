@@ -22,14 +22,14 @@ background-color: rgba(255,255,255,0.6);
     padding: 2em 2em 4em;
 } 
 
-.titulo1{text-align: center;
+.cabecera1{text-align: center;
     color: white;
     
     
     
 }
 
-.titulo2{ text-align: center;
+.cabecera2{ text-align: center;
     color: white;
     
     
@@ -38,20 +38,17 @@ background-color: rgba(255,255,255,0.6);
  #menu{
      
      padding: 0;
-    margin-left: 250;
-     margin-right:auto;
-     margin-bottom: auto;
-     margin-top: auto;
+    
     }
 #menu li{
     
   display: inline;
-    text-align: center;
     
 }
 
+
 #menu li a{
-    
+    border: 1px solid #fff;
     font-family: Arial;
 font-size:20px;
 text-decoration: none;
@@ -59,6 +56,7 @@ float:left;
 padding: 10px;
 background-color: rgb(83,83,83);
 color: #fff;
+    box-shadow: 10px 10px 5px #888888;
 }
 
 #menu li a:hover{
@@ -75,6 +73,7 @@ color: #fff;
     padding-bottom: 50px;
     padding-left: 80px;
     font size: 100;
+    box-shadow: 10px 10px 5px #888888;
 color: white}
 
    
@@ -82,5 +81,6 @@ color: white}
     margin-top: 200;
    text-align: center;
     color: black;
+    
     
 }

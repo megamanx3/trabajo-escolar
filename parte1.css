@@ -82,17 +82,21 @@ box-shadow: 10px 10px 5px #888888;
 
 
 .caption {
+    
 padding: 0;
 width: 100%;
 position: relative;
+    
 }
 .caption img {
+    
 width: 100%;
 height: auto;
 display: block;
 padding: 0;
 border: 0;
 }
+
 .caption::before {
 content: attr(title);
 position: absolute;

@@ -52,7 +52,7 @@ background-color: rgba(255,255,255,0.6);
     float: left;
     padding: 10px;
     text-decoration: none;
-    
+    box-shadow: 10px 10px 5px #888888;
 }
 
 #menu li a:hover{
@@ -68,13 +68,43 @@ background-color: rgba(255,255,255,0.6);
     padding: 40;
     margin-top: 200;
     
-    
+    box-shadow: 10px 10px 5px #888888;
 }
 
 
+.texto img{
+    box-shadow: 10px 10px 5px #333;
+
+    
+}
 
 
 .pie{
     text-align: center;
     color: #fff;
+}
+
+.caption{
+    padding: 0 auto;
+   width: 100%;
+    position: relative;
+    
+    }
+
+.caption img{
+    width: 100%;
+    display: block
+}
+
+.caption::before {
+content: attr(title);
+position: absolute;
+background: rgba(83, 83, 83, 0.6); 
+color: #fff;
+font-size: 14px; 
+padding: 5px;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: center;
 }

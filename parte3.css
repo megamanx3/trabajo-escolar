@@ -66,6 +66,11 @@ background-color: rgba(255,255,255,0.6);
     padding: 40;
     box-shadow: 10px 10px 5px #888888;
 }
+.texto img{
+    box-shadow: 10px 10px 5px #333;
+
+    
+}
 
 
 .caption{
